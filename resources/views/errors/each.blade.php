@@ -1,0 +1,1 @@
+@if($errors->has($field))<div class="alert alert-danger"><strong><span>&nbsp;</span></strong>{{ $errors->first($field) }}<br></div>@endif

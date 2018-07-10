@@ -1,0 +1,26 @@
+# vhost_start wbs.klakklik.id
+<VirtualHost 128.199.205.146:80>
+ServerName wbs.klakklik.id
+ServerAlias www.wbs.klakklik.id
+ServerAdmin hary@klakklik.id
+DocumentRoot "/home/wbs16/public_html/public/"
+ScriptAlias /cgi-bin/ "/home/wbs16/public_html/cgi-bin/
+# 
+# Custom settings are loaded below this line (if any exist)
+# Include "/usr/local/apache/conf/userdata/wbs16/wbs.klakklik.id/*.conf
+
+<IfModule mod_suexec.c>
+        SuexecUserGroup wbs16 wbs16
+</IfModule>
+
+<IfModule mod_suphp.c>
+        suPHP_UserGroup wbs16 wbs16
+        suPHP_ConfigPath /home/wbs16
+</IfModule>
+
+<Directory "/home/wbs16/public_html/public/">
+        AllowOverride All
+</Directory>
+
+</VirtualHost>
+# vhost_end wbs.klakklik.id

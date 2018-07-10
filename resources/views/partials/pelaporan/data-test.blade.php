@@ -1,0 +1,1 @@
+<div class="row"><div class="col-sm-12"><div class="form-group"><div class="input-group"><span class="input-group-addon {{ ($jalur==2) ? 'themeFontColor' : '' }}"><span class="glyphicon glyphicon-envelope"></span></span>{!! Form::text('email',null,['class'=>'form-control','placeholder'=>'Email']) !!}</div></div></div></div>@include('errors.each',['field'=>'email'])

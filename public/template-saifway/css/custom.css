@@ -1,0 +1,37 @@
+.btn-circle-small{
+	background: #1bbc9b;
+    color: white !important;
+    font-weight: bolder;
+    font-size: 12px !important;
+    padding: 5px;
+    border-radius: 35px;
+}
+.list-style-type-lower-latin{list-style-type: lower-latin;}
+.list-style-type-none{list-style-type: none;}
+.main-text{
+	line-height: 30px;
+	font-size: 16px;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+.padding-top-10{
+	padding-top: 10px !important;
+}
+.padding-top-15{
+	padding-top: 15px !important;
+}
+.padding-left-15{
+	padding-left: 15px !important;
+}
+.padding-left-21{
+	padding-left: 21px !important;
+}
+.active{
+	color: #0049ce !important;
+	font-weight: bolder;
+}
+.box-shadow{
+	box-shadow: 2px 2px 6px #ccc;
+}
+hr{margin: 10px 0 !important;}
+.form-control{color: #555555 !important;}
