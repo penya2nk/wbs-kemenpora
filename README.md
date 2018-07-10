@@ -19,4 +19,9 @@
 ###Username:kemenp0r_repo
 ###Password:4XocBwth
 
+## MAIL CONFIG
+
+##Tambahkan alamat domain anda kedalam file .env 
+###APP_URL={your domain}
+
 
