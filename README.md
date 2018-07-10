@@ -1,4 +1,4 @@
-# Sistem Informasi Pelaporan Pelanggaran (sipp)
+# Aplikasi Whistleblower merupakan aplikasi layanan pengaduan tentang adanya penyalahgunaan wewenang, pelanggaran peraturan perundang-undangan, atau pelanggaran kode etik dan pedoman perilaku yang dilakukan oleh pegawai/pejabat di lingkungan Kementerian Pemuda dan Olahraga.
 
 ## Requirement
 
@@ -10,13 +10,13 @@
 ###CPU Details : 1 Core (2400 MHz)
 ###Memory RAM : 2Gb
 
-## DocumentRoot "/home/perpus01/public_html/public" 
+## DocumentRoot "/home/kemenp0r/public_html/public" 
 
 ###"index.php terdapat didalam folder public"
 
 ## Database
-###Database: perpus01_repo
-###Username: perpus01_repo
-###Password: BKvM19AJ
+###Database:kemenp0r_repo
+###Username:kemenp0r_repo
+###Password:4XocBwth
 
 
